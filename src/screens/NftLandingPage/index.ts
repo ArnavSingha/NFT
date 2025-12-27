@@ -1,0 +1,1 @@
+export { NftLandingPage } from "./NftLandingPage";

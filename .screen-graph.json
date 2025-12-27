@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "id": "src/routes/NftLandingPage/screens/NftLandingPage.tsx",
+      "label": "NftLandingPage",
+      "routes": [
+        "/"
+      ],
+      "isRoot": true
+    },
+    {
+      "id": "src/screens/AboutPage/AboutPage.tsx",
+      "label": "AboutPage",
+      "routes": [
+        "/about"
+      ]
+    },
+    {
+      "id": "src/screens/FeaturesPage/FeaturesPage.tsx",
+      "label": "FeaturesPage",
+      "routes": [
+        "/features"
+      ]
+    },
+    {
+      "id": "src/screens/PricingPage/PricingPage.tsx",
+      "label": "PricingPage",
+      "routes": [
+        "/pricing"
+      ]
+    },
+    {
+      "id": "src/screens/ContactPage/ContactPage.tsx",
+      "label": "ContactPage",
+      "routes": [
+        "/contact"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "src\\components\\layout\\Navbar.tsx:18:6-to-src\\routes\\NftLandingPage\\screens\\NftLandingPage.tsx",
+      "source": "src\\screens\\AboutPage\\AboutPage.tsx",
+      "target": "src\\routes\\NftLandingPage\\screens\\NftLandingPage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link to=\"/\">\r\n        <img\r\n          className=\"w-9 h-[31px]\"\r\n          alt=\"Logo\"\r\n          src=\"https://c.animaapp.com/mjoth52w8d7C2b/img/union.png\"\r\n        />\r\n      </Link>",
+          "line": 18,
+          "endLine": 24,
+          "column": 6,
+          "endColumn": 13,
+          "sourceFile": "src\\components\\layout\\Navbar.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\components\\layout\\Navbar.tsx:18:6-to-src\\routes\\NftLandingPage\\screens\\NftLandingPage.tsx",
+      "source": "src\\screens\\AboutPage\\AboutPage.tsx",
+      "target": "src\\routes\\NftLandingPage\\screens\\NftLandingPage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link to=\"/\">\r\n        <img\r\n          className=\"w-9 h-[31px]\"\r\n          alt=\"Logo\"\r\n          src=\"https://c.animaapp.com/mjoth52w8d7C2b/img/union.png\"\r\n        />\r\n      </Link>",
+          "line": 18,
+          "endLine": 24,
+          "column": 6,
+          "endColumn": 13,
+          "sourceFile": "src\\components\\layout\\Navbar.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\components\\layout\\Navbar.tsx:18:6-to-src\\routes\\NftLandingPage\\screens\\NftLandingPage.tsx",
+      "source": "src\\screens\\AboutPage\\AboutPage.tsx",
+      "target": "src\\routes\\NftLandingPage\\screens\\NftLandingPage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link to=\"/\">\r\n        <img\r\n          className=\"w-9 h-[31px]\"\r\n          alt=\"Logo\"\r\n          src=\"https://c.animaapp.com/mjoth52w8d7C2b/img/union.png\"\r\n        />\r\n      </Link>",
+          "line": 18,
+          "endLine": 24,
+          "column": 6,
+          "endColumn": 13,
+          "sourceFile": "src\\components\\layout\\Navbar.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\components\\layout\\Navbar.tsx:18:6-to-src\\routes\\NftLandingPage\\screens\\NftLandingPage.tsx",
+      "source": "src\\screens\\AboutPage\\AboutPage.tsx",
+      "target": "src\\routes\\NftLandingPage\\screens\\NftLandingPage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<Link to=\"/\">\r\n        <img\r\n          className=\"w-9 h-[31px]\"\r\n          alt=\"Logo\"\r\n          src=\"https://c.animaapp.com/mjoth52w8d7C2b/img/union.png\"\r\n        />\r\n      </Link>",
+          "line": 18,
+          "endLine": 24,
+          "column": 6,
+          "endColumn": 13,
+          "sourceFile": "src\\components\\layout\\Navbar.tsx"
+        }
+      }
+    }
+  ]
+}
